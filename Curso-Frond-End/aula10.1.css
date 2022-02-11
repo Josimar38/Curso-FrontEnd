@@ -1,0 +1,17 @@
+.container-parede {
+  display: grid;
+  max-width: 1200px;
+  color: white;
+  gap: 10px;
+  background-color: gray;
+  grid-template-rows: 125px 275px;
+}
+.item-revestimento01,
+.item-revestimento02,
+.item-revestimento03,
+.item-revestimento04 {
+  background-color: orange;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}

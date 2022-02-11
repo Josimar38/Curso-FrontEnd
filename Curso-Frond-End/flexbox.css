@@ -1,0 +1,16 @@
+.container-parede {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background: grey;
+  display: flex;
+  flex-direction: column;
+}
+.item-revestimento {
+  margin: 5px;
+  padding: 5px;
+  background-color: orange;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
